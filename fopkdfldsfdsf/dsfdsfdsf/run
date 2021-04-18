@@ -10,7 +10,7 @@ WHITEC='\033[01;91m'
 CNIL='\033[0m'
 Version=`lsb_release -rs | cut -f1 -d"."`
 
-sudo uname -a;mkdir basel;cd basel;rm -rf JSON.lua;wget https://raw.githubusercontent.com/iamabazawhourhhhhhh/nothinghereiamsorry/main/inc/JSON.lua;rm -rf Script.lua;wget https://raw.githubusercontent.com/iamabazawhourhhhhhh/nothinghereiamsorry/main/inc/Script.lua;rm -rf functions.lua ;wget https://raw.githubusercontent.com/iamabazawhourhhhhhh/nothinghereiamsorry/main/inc/functions.lua;rm -rf locks.lua ;wget https://raw.githubusercontent.com/iamabazawhourhhhhhh/nothinghereiamsorry/main/inc/locks.lua;rm -rf Run.lua;wget https://raw.githubusercontent.com/iamabazawhourhhhhhh/nothinghereiamsorry/main/inc/Run.lua;cd ..
+sudo uname -a;mkdir inc;cd inc;rm -rf JSON.lua;wget https://raw.githubusercontent.com/iamabazawhourhhhhhh/nothinghereiamsorry/main/inc/JSON.lua;rm -rf Script.lua;wget https://raw.githubusercontent.com/iamabazawhourhhhhhh/nothinghereiamsorry/main/inc/Script.lua;rm -rf functions.lua ;wget https://raw.githubusercontent.com/iamabazawhourhhhhhh/nothinghereiamsorry/main/inc/functions.lua;rm -rf locks.lua ;wget https://raw.githubusercontent.com/iamabazawhourhhhhhh/nothinghereiamsorry/main/inc/locks.lua;rm -rf Run.lua;wget https://raw.githubusercontent.com/iamabazawhourhhhhhh/nothinghereiamsorry/main/inc/Run.lua;cd ..
 rm -rf libs;mkdir libs;cd libs;wget https://raw.githubusercontent.com/r00t94/k/main/lib/json.lua ;wget https://raw.githubusercontent.com/r00t94/k/main/lib/url.lua;wget https://raw.githubusercontent.com/r00t94/k/main/lib/redis.lua;cd ..
 clear
 
